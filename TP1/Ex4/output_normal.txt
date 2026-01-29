@@ -1,0 +1,2 @@
+Array elements: 0 10 20 30 40 
+Array elements: 0 10 20 30 40 

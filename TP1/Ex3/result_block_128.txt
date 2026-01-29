@@ -1,0 +1,2 @@
+Block size: 128
+Execution time: 2.582307 seconds
