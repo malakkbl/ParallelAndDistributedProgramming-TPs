@@ -66,7 +66,3 @@ TP1/
 ## Future TPs
 
 Additional TPs will be added throughout the semester as they are assigned.
-
-## Current Status
-
-- TP1 > work in progress
