@@ -1,0 +1,6 @@
+INT | U=1 | Sum = 1000000 | Time = 2.013000 ms
+INT | U=2 | Sum = 1000000 | Time = 1.242000 ms
+INT | U=4 | Sum = 1000000 | Time = 0.773000 ms
+INT | U=8 | Sum = 1000000 | Time = 0.723000 ms
+INT | U=16 | Sum = 1000000 | Time = 1.256000 ms
+INT | U=32 | Sum = 1000000 | Time = 0.626000 ms

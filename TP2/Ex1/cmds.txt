@@ -1,0 +1,17 @@
+gcc -O0 double_unroll_param.c -o ex1
+
+./ex1 1  >> results_O0.txt
+./ex1 2  >> results_O0.txt
+./ex1 4  >> results_O0.txt
+./ex1 8  >> results_O0.txt
+./ex1 16 >> results_O0.txt
+./ex1 32 >> results_O0.txt
+
+gcc -O2 double_unroll_param.c -o ex1
+
+./ex1 1  >> results_O2.txt
+./ex1 2  >> results_O2.txt
+./ex1 4  >> results_O2.txt
+./ex1 8  >> results_O2.txt
+./ex1 16 >> results_O2.txt
+./ex1 32 >> results_O2.txt

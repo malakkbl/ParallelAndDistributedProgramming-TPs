@@ -1,0 +1,13 @@
+.L3:
+	movsd	xmm0, QWORD PTR -32[rbp]
+	mulsd	xmm0, QWORD PTR -24[rbp]
+	movsd	xmm1, QWORD PTR -48[rbp]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR -48[rbp], xmm0
+	movsd	xmm0, QWORD PTR -32[rbp]
+	mulsd	xmm0, QWORD PTR -24[rbp]
+	movsd	xmm1, QWORD PTR -40[rbp]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR -40[rbp], xmm0
+	add	DWORD PTR -52[rbp], 1
+.L2:

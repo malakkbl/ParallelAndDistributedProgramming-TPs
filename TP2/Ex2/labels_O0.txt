@@ -1,0 +1,14 @@
+5:.LC4:
+11:.LFB6:
+20:	movsd	xmm0, QWORD PTR .LC0[rip]
+22:	movsd	xmm0, QWORD PTR .LC1[rip]
+31:	jmp	.L2
+32:.L3:
+44:.L2:
+46:	jle	.L3
+53:	movsd	xmm1, QWORD PTR .LC3[rip]
+60:	lea	rax, .LC4[rip]
+69:.LFE6:
+73:.LC0:
+77:.LC1:
+81:.LC3:

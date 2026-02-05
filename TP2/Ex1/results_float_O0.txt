@@ -1,0 +1,6 @@
+FLOAT | U=1 | Sum = 1000000.000000 | Time = 2.648000 ms
+FLOAT | U=2 | Sum = 1000000.000000 | Time = 1.359000 ms
+FLOAT | U=4 | Sum = 1000000.000000 | Time = 0.831000 ms
+FLOAT | U=8 | Sum = 1000000.000000 | Time = 0.803000 ms
+FLOAT | U=16 | Sum = 1000000.000000 | Time = 0.804000 ms
+FLOAT | U=32 | Sum = 1000000.000000 | Time = 0.889000 ms

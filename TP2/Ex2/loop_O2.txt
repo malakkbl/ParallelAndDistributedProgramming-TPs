@@ -1,0 +1,5 @@
+.L2:
+	addsd	xmm1, xmm0
+	addsd	xmm1, xmm0
+	sub	eax, 2
+	jne	.L2

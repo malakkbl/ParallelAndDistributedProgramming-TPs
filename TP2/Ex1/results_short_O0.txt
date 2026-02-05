@@ -1,0 +1,6 @@
+SHORT | U=1 | Sum = 1000000 | Time = 1.932000 ms
+SHORT | U=2 | Sum = 1000000 | Time = 1.010000 ms
+SHORT | U=4 | Sum = 1000000 | Time = 0.883000 ms
+SHORT | U=8 | Sum = 1000000 | Time = 0.796000 ms
+SHORT | U=16 | Sum = 1000000 | Time = 0.720000 ms
+SHORT | U=32 | Sum = 1000000 | Time = 0.678000 ms
