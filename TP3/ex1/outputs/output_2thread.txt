@@ -1,0 +1,3 @@
+Hello from the rank 0 thread
+Parallel execution is initialized with 2 threads
+Hello from the rank 1 thread
