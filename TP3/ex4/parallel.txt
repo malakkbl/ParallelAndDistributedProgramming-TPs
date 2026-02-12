@@ -1,0 +1,5 @@
+Parallel Matrix Multiplication (collapse)
+Matrix dimensions: A[1000x1000] * B[1000x1000] = C[1000x1000]
+Threads: 12
+Time: 1.205562 seconds
+Sample result c[0][0] = 333832500.00

@@ -8,28 +8,24 @@ int main() {
     int i;
     double x, pi, sum = 0.0;
     double start, end;
-
+    
     step = 1.0 / (double) num_steps;
+    
     start = omp_get_wtime();
-
-    #pragma omp parallel private(i,x) reduction(+:sum)
-    {
-        int id = omp_get_thread_num();
-        int num_threads = omp_get_num_threads();
-
-        for (i = id; i < num_steps; i += num_threads) {
-            x = (i + 0.5) * step;
-            sum += 4.0 / (1.0 + x * x);
-        }
+    
+    #pragma omp parallel for private(x) reduction(+:sum)
+    for (i = 0; i < num_steps; i++) {
+        x = (i + 0.5) * step;
+        sum = sum + 4.0 / (1.0 + x * x);
     }
-
+    
     pi = step * sum;
-
+    
     end = omp_get_wtime();
-
+    
     printf("PI = %.15f\n", pi);
     printf("Time = %.6f seconds\n", end - start);
     printf("Number of threads = %d\n", omp_get_max_threads());
-
+    
     return 0;
 }
