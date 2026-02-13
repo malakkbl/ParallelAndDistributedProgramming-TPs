@@ -11,7 +11,7 @@ ParallelAndDistributedProgramming-TPs/
 ├── README.md
 ├── TP1/
 ├── TP2/
-└── TP3/ (to be added)
+├── TP3/
 └── ...
 ```
 
@@ -114,6 +114,59 @@ TP2/
 ```
 
 ---
+
+## TP3 - OpenMP Parallel Programming
+
+### Structure
+```
+TP3/
+├── TP3.pdf                     # TP assignment instructions
+├── TP3Report.pdf               # Final report
+├── ex1/                        
+│   ├── ex1.c
+│   ├── outputs/
+│   │   ├── output_1thread.txt
+│   │   ├── output_2threads.txt
+│   │   ├── output_4threads.txt
+│   │   └── output_8threads.txt
+│   └── terminal_screenshot.png
+├── ex2/                        
+│   ├── ex2_sequential.c
+│   ├── ex2_parallel.c
+│   ├── output_sequential.txt
+│   ├── output_parallel.txt
+│   └── terminal_screenshot.png
+├── ex3/                        
+│   ├── serial.c
+│   ├── parallel1line.c
+│   ├── serial.txt
+│   ├── parallel1line.txt
+│   └── terminal_screenshot.png
+├── ex4/                        
+│   ├── serial.c
+│   ├── parallel.c
+│   ├── matrix_threads.c
+│   ├── matrix_scheduling.c
+│   ├── serial.txt
+│   ├── parallel.txt
+│   ├── thread_results.txt
+│   ├── scheduling_results.txt
+│   ├── analysis.ipynb
+│   ├── speedup_plot.png
+│   ├── efficiency_plot.png
+│   ├── scheduling_comparison.png
+│   ├── combined_analysis.png
+│   ├── thread_execution.png
+│   └── scheduling_execution.png
+└── ex5/                        
+    ├── jacobi_parallel.c
+    ├── results.csv
+    ├── analysis.ipynb
+    ├── jacobi_time.png
+    ├── jacobi_speedup.png
+    ├── jacobi_efficiency.png
+    └── jacobi_combined.png
+```
 
 ## Future TPs
 
