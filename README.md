@@ -12,6 +12,7 @@ ParallelAndDistributedProgramming-TPs/
 ├── TP1/
 ├── TP2/
 ├── TP3/
+├── TP4/
 └── ...
 ```
 
@@ -168,6 +169,40 @@ TP3/
     └── jacobi_combined.png
 ```
 
+---
+
+## TP4 - OpenMP Synchronization and Barriers
+
+### Structure
+```
+TP4/
+├── TP4.pdf                     # TP assignment instructions
+├── TP4Report.pdf               # Final report
+├── ex1/                        # Work distribution with parallel sections
+│   └── code_sections.c
+├── ex2/                        # Master and single thread directives
+│   ├── code.c
+│   ├── code_modified.c
+│   ├── output_sequential.txt
+│   └── output_parallel.txt
+├── ex3/                        # Load balancing with parallel sections
+│   ├── code.c
+│   ├── code_solution.c
+│   └── output.txt
+└── ex4/                        # Dense matrix-vector multiplication (DMVM)
+    ├── code.c                  # Sequential baseline
+    ├── codev1.c                # Version 1: Implicit barrier
+    ├── codev2.c                # Version 2: Dynamic + nowait
+    ├── codev3.c                # Version 3: Static + nowait
+    ├── results_combined.csv
+    ├── analysis.ipynb
+    ├── analysis_executed.ipynb
+    ├── cpu_time_comparison.png
+    ├── speedup_comparison.png
+    ├── efficiency_comparison.png
+    ├── mflops_comparison.png
+    └── combined_analysis.png
+```
 ## Future TPs
 
 Additional TPs will be added throughout the semester as they are assigned.
