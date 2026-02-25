@@ -13,6 +13,7 @@ ParallelAndDistributedProgramming-TPs/
 ├── TP2/
 ├── TP3/
 ├── TP4/
+├── TP5/
 └── ...
 ```
 
@@ -203,6 +204,61 @@ TP4/
     ├── mflops_comparison.png
     └── combined_analysis.png
 ```
+
+---
+
+## TP5 - MPI Parallel Programming
+
+### Structure
+```
+TP5/
+├── TP5.pdf                     # TP assignment instructions
+├── TP5Report.pdf               # Final report
+├── ex1/                        # Hello World MPI (4 versions)
+│   ├── code1.c
+│   ├── code1
+│   ├── code2.c
+│   ├── code2
+│   ├── code3.c
+│   ├── code3
+│   ├── code4.c
+│   └── code4
+├── ex2/                        # Data broadcasting with MPI_Bcast
+│   ├── code.c
+│   └── code
+├── ex3/                        # Ring communication pattern
+│   ├── code.c
+│   └── code
+├── ex4/                        # Matrix-vector multiplication
+│   ├── original.c
+│   ├── matrix_seq
+│   ├── mpiversion.c
+│   ├── matrix_mpi
+│   ├── results.csv
+│   ├── analysis.ipynb
+│   ├── execution_time_comparison.png
+│   ├── speedup_comparison.png
+│   ├── efficiency_comparison.png
+│   ├── parallel_time_comparison.png
+│   └── combined_analysis.png
+└── ex5/                        # Pi calculation via numerical integration
+    ├── seq.c
+    ├── pi_seq
+    ├── mpi.c
+    ├── pi_mpi
+    ├── results.csv
+    ├── analysis.ipynb
+    ├── execution_time_comparison.png
+    ├── speedup_comparison.png
+    ├── efficiency_comparison.png
+    ├── parallel_time_comparison.png
+    ├── combined_analysis.png
+    ├── accuracy_analysis.png
+    └── accuracy_cost_tradeoff.png
+```
+
+---
+
 ## Future TPs
 
 Additional TPs will be added throughout the semester as they are assigned.
