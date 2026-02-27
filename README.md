@@ -14,6 +14,7 @@ ParallelAndDistributedProgramming-TPs/
 ├── TP3/
 ├── TP4/
 ├── TP5/
+├── TP6/
 └── ...
 ```
 
@@ -255,6 +256,32 @@ TP5/
     ├── combined_analysis.png
     ├── accuracy_analysis.png
     └── accuracy_cost_tradeoff.png
+```
+
+---
+
+## TP6 - MPI Derived Types and Distributed Machine Learning
+
+### Structure
+```
+TP6/
+├── TP6.pdf                     # TP assignment instructions
+├── TP6Report.pdf               # Final report
+├── ex1/                        # Matrix transposition using MPI derived types
+│   ├── code.c
+│   ├── code
+│   └── output.png
+└── ex2/                        # Distributed gradient descent
+    ├── code.c
+    ├── code
+    ├── results.csv
+    ├── analysis.ipynb
+    ├── speedup_analysis.png
+    ├── efficiency_analysis.png
+    ├── execution_time_comparison.png
+    ├── combined_analysis.png
+    ├── analysis_results.csv
+    └── forcsv.png
 ```
 
 ---
