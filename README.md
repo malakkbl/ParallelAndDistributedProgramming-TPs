@@ -15,6 +15,7 @@ ParallelAndDistributedProgramming-TPs/
 ├── TP4/
 ├── TP5/
 ├── TP6/
+├── TP7/
 └── ...
 ```
 
@@ -285,6 +286,25 @@ TP6/
 ```
 
 ---
+
+## TP7 - MPI and OpenMP Parallel Computing
+
+### Structure
+```
+TP7/
+├── TP7.pdf                     # TP assignment instructions
+├── exercise1/                  # Parallel Game of Life with MPI
+│   ├── parallel_game_of_life.c
+│   ├── game_of_life
+│   ├── Makefile
+│   └── output.txt
+└── exercise2/                  # Poisson Solver with MPI and Performance Analysis
+    ├── poisson_solver.c
+    ├── poisson
+    ├── Makefile
+    ├── plot.ipynb              # Jupyter notebook for speedup & efficiency analysis
+    └── poisson_speedup_analysis.png
+```
 
 ## Future TPs
 
